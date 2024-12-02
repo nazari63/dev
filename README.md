@@ -1,8 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Base.dev
+
+A modern, terminal-inspired landing page for Base's development platform built with Next.js.
+
+## Features
+
+- Terminal-inspired interface with a copyable npm command
+- Interactive command palette (⌘/Ctrl + i) showcasing Base products:
+  - Base Wallet - Secure and easy-to-use wallet
+  - OnchainKit - AppKit for building onchain apps
+  - Paymaster - Gasless transactions on Base
+  - AgentKit - Framework for building AI agents
+  - Base L3 - Base's upcoming Layer 3
+- Animated text scramble effect
+- Quick links to Base resources (blog, careers, X/Twitter)
+- Responsive design with Tailwind CSS
+- Built with Next.js 14 and TypeScript
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +44,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org) - React framework
+- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org) - Type-safe JavaScript
+- [CMDK](https://cmdk.paco.me) - Command palette component
+- [use-scramble](https://www.npmjs.com/package/use-scramble) - Text scramble effect
+
+## Project Structure
+
+- `app/` - Next.js app router pages and layouts
+- `components/` - React components including the terminal landing and command palette
+- `public/` - Static assets
+- `lib/` - Utility functions and shared code
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs)
