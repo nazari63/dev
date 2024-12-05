@@ -2,7 +2,7 @@
 
 import { useScramble } from 'use-scramble'
 import Link from 'next/link'
-import { CommandPalette } from './CommandPalette'
+import { CommandPalette } from './command-palette'
 import { useState } from 'react'
 
 export default function TerminalLanding() {
@@ -75,6 +75,14 @@ export default function TerminalLanding() {
                 className="hover:text-gray-400 transition-colors"
               >
                 x
+              </Link>
+              <span className="text-gray-400">/</span>
+              <Link 
+                target="_blank"
+                href="https://warpcast.com/base"
+                className="hover:text-gray-400 transition-colors"
+              >
+                warpcast
               </Link>
             </div>
           </div>
