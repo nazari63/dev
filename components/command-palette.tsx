@@ -12,7 +12,7 @@ type Product = {
 
 const products: Product[] = [
   {
-    name: "Base Wallet",
+    name: "Smart Wallet",
     description: "Secure and easy-to-use wallet for Base",
     status: "available",
     url: "https://smartwallet.dev"
@@ -34,11 +34,6 @@ const products: Product[] = [
     description: "Framework to build AI agents on Base",
     status: "available",
     url: "https://docs.cdp.coinbase.com/agentkit/docs/welcome"
-  },
-  {
-    name: "Base L3",
-    description: "Base's Layer 3",
-    status: "coming soon",
   }
 ]
 
