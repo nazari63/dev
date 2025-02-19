@@ -66,3 +66,4 @@ To learn more about the technologies used in this project:
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs)
+This project is a demonstration of blockchain technology and smart contract integration.
